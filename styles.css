@@ -1,0 +1,59 @@
+/* styles.css */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#top-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#top-text h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+#top-text h4 {
+  color: grey;
+}
+
+#logo img {
+  width: 200px;
+  height: auto;
+}
+
+.home {
+  top: -30px;
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png');
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+table {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: none;
+}
+
+table th {
+  background-color: #f0f0f0;
+  font-weight: normal;
+}
+
